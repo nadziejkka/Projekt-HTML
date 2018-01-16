@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Daria Ziętek">
+    <meta lang="pl">
+    <meta name="author" content="Daria Ziętek"> 
+    <title>Matematyka</title>
+        
+ <script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+
+<script type="text/javascript"   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <style>
+        body,header,.nav,#tresc{
+            padding: 0px;
+            padding-bottom: 10px;
+            font-size: 14px;
+            margin: 0px;
+            border: colaps;
+        }
+        nav{
+            background-color: green;
+        }
+
+        html{
+            background-color: rosybrown;
+        }
+        
+        body{
+            width: 900px;
+            height: 1000px;
+            background-color: azure;
+            font-size-adjust: auto;
+            font-size: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+        }
+        header{
+            width: 900px;
+            height: 100px;
+            background-color: darkcyan;
+            
+        }
+        nav{
+            width: 900px;
+            height: 20px;
+            background-color:whitesmoke;
+        }
+        .nav{
+            width: 200px;
+            height: 1500px;
+            background-color: mediumspringgreen;
+            float: left;
+        }
+        #tresc{
+            width: 700px;
+            height: 1500px;
+            background-color: powderblue;
+            float: left;
+        }
+        
+        h1{
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+        ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            list-style-position: inside;
+        }
+        li{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            width: 20%;
+            text-align: center;
+            display: inline-block;
+        
+        }
+    </style>
+    </head>
+
+    <body>
+        <header>
+           <h1> <font size="15" color="black"> Matematyka </font> </h1>
+<!--
+         <h4><b>coooo</b></h4>
+         <h6>najmniejszy</h6>
+-->
+    
+        </header>
+    <nav>
+        <ul>
+            <a href="file:///C:/Users/DARIA/Desktop/Technologie%20Informacyjne/Projekt/projekt4.html" qwerty> Strona główna </a>
+        </ul>
+    
+    </nav>
+    <section class="nav">
+            <h3>
+            <ul>
+                <li><a href="dariazietek.docx"> Word</a></li><br>
+                <li><a href="dariazietek.xlsx"> Excel </a></li> <br>
+                <li><a href="dariazietek.7z"> LaTeX</a></li><br>
+                <li><a href="dariazietek.pdf">Pdf </a></li>
+            </ul>
+            </h3>
+    </section>
+    
+    <section id="tresc">
+        <p>
+        <h2>Rozdział 1 </h2><h1> Liczby zespolone </h1>
+        <b>Deﬁnicja 1. </b><i>Liczbą zespoloną nazywamy parę uporządkowaną liczb rzeczywistych. Niech \(z=(a,b)\) i \(w=(c,d)\) będą dwiema liczbami zespolonymi. Wówczas określamy sumę i iloczyn liczb \(z\) i \(w\) wzorami</i> \[z + w = (a + c,b + d)\] \[zw = (ac = bd,ad + bc).\]<p align="right">(1.1)</p> <b>Twierdzenie 1.</b> <i>Z tak określonymi działaniami dodawania i mnożenia zbiór liczb zespolonych \(C\) jest ciałem. Przy czym rolę zera pełni para \((0,0)\), a rolę jedynki - para \((1,0)\). </i> <br> <b>Dowód. </b><i> Należy sprawdzić, że spełnione są aksjomaty ciała liczbowego. Niech \(z = (a,c)\), \(w = (c,d)\) i \(t = (e,f)\).</i> <br> (1) - przemienność dodawania $$z + w = (a + c,b + d) = (c + a,d + b) = w + z.$$ <br> (2) - łączność dodawania $$(z + w)+ t = (a + c,b + d)+(e,f) = ((a + c)+ e,(b + d)+ f)=$$ $$= (a +(c + e),b +(d + f)) = (a,b)+(c + e,d + f) = z +(w + t)$$ <br> (3) - istnienie zera $$z +0 = (a,b)+(0,0) = (a +0,b +0) = (a,b) = z.$$ <br> (4) - istnienie elementu przeciwnego <br> Niech $$−z = (−a,−b).$$ Wówczas $$z +(−z) = (a,b)+(−a,−b) = (0,0) = 0.$$ <br> (5) - przemienność mnożenia $$zw = (ac−bd,ad + bc) = (ca = db,da + cb) = wz.$$ <br> (6) - łączność mnożenia $$(zw)t = (ac−bd,ad + bc)(e,f) =$$ $$= ((ac−bd)e−(ad + bc)f,(ac−bd)f +(ad = bc)e) =$$ $$= (ace−bde−adf −bcf,acf −bdf + ade + bce) =$$ $$= (a(ce−df)−b(cf + de),a(cf + de)+ b(ce−df)) =$$ $$=(a,b)(ce = df,cf + de) = z(wt).$$ <br> (7) - istnienie jedynki $$z·1 = (a,b)(1,0) = (a,b) = z$$. <br>(8) - istnienie odwrotności <br> Jeżeli \(z &ne; 0\), to \((a,b) &ne; (0,0)\), a to oznacza, że przynajmniej jedna z liczb \(a,b\) jest różna od zera.<br> W konsekwencji \(a2 + b2 > 0\) i możemy zdeﬁniować liczbę. <br> $$\frac{1}{z} = (\frac{a}{a^2 + b^2}, \frac{−b}{a2 + b2}).$$ <br>Wówczas $$z·\frac{1}{z} = (a,b)(\frac{a}{a^2 + b^2} , \frac{−b}{a^2 + b^2})= (1,0) = 1.$$ <br>(9) - rozdzielność mnożenia względem dodawania
+$$z(w + t) = (a,b)(c + e,d + f) =$$ $$= (a(c + e)−b(d + f),a(d + f)+ b(c + e)) =$$ $$= (ac + ae−bd−bf,ad + af + bc + be) =$$ $$= (ac−bd,ad + bd)+(ae−bf,af + be) = zw + zt$$ <br>
+        Daria Ziętek
+</html>
+        
+    </section>
+    </body>
+</html>

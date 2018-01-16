@@ -1,0 +1,120 @@
+<!doctype css>
+<css>
+<style>
+header
+body{
+    background-color: greenyellow;
+    padding: 10px;
+    border: collapse;
+    width: auto;
+    height: auto;
+    font-size-adjust: auto;
+    font-size: 12px;
+    white-space: pre-wrap;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+}
+header{
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 70px;
+    border-radius: 70px;
+}
+
+nav{
+    padding: 10px;
+    border: collapse;
+    width:auto;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    color: black;
+    border-width: 5px;
+    border-radius: 120px
+    
+}
+table{
+    border-spacing: 20px;
+    width: auto;
+    height: auto;
+    border-width: 5px;
+    border-radius: 120px;
+            
+        }
+
+th {
+    background-color: beige;
+    width: 1310px;
+    height: 35px;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 120px;
+    
+}
+aside{
+    width: 250px;
+    height: auto;
+    font-size: 14px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    color: black;    
+    border-width: 5px;
+    border-radius: 50px;
+    text-shadow: 0.1em 0.1em 0.1em grey;
+    
+}
+li {
+    background-color: beige;
+    width: auto;
+    height: auto;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 50px;
+    text-align: center;
+}
+h4{
+    float: left;
+    width: 800px;
+    height: auto;
+    margin-left: 300px;
+    font-size: 14px;
+    text-align: justify;
+    white-space: pre-wrap;
+    text-indent: 5px;
+    color: black;
+    background-color: beige;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 20px;
+}
+.zdjecie{
+    margin: auto;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 70px;
+        }
+h1{
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    margin-left: 300px;
+        }
+h1::after{
+    content: "";
+    display: block;
+    border: 2px solid black;
+}
+h1:before{
+    content: "";
+    display: block;
+    border: 2px solid black;
+}
+    </style>
+
+</css>
