@@ -1,9 +1,7 @@
 <!doctype css>
 <css>
 <style>
-header
 body{
-    background-color: greenyellow;
     padding: 10px;
     border: collapse;
     width: auto;
@@ -14,14 +12,37 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: justify;
 }
-header{
-    width: 700px;
-    height: 350px;
+
+div{
+    width: 300px;
+    height: auto;
     margin: auto;
     border-width: 5px;
     border-style: dotted;
     border-radius: 70px;
     border-radius: 70px;
+}
+span a{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+span a:hover{
+    background-color: palegreen;
+}
+a{
+    padding: auto;
+    border: collapse;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    color: black;
+    border-width: 5px;
+    border-radius: 120px;
 }
 
 nav{
@@ -36,28 +57,32 @@ nav{
     text-shadow: 0.1em 0.1em 0.2em grey;
     color: black;
     border-width: 5px;
-    border-radius: 120px
-    
+    border-radius: 120px;  
 }
+
 table{
     border-spacing: 20px;
     width: auto;
     height: auto;
     border-width: 5px;
     border-radius: 120px;
-            
-        }
+}
 
 th {
     background-color: beige;
-    width: 1310px;
+    width: auto;
     height: 35px;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    color: black;
     border-width: 5px;
-    border-style: dotted;
     border-radius: 120px;
     
 }
+
 aside{
+    float: left;
     width: 250px;
     height: auto;
     font-size: 14px;
@@ -70,7 +95,7 @@ aside{
     text-shadow: 0.1em 0.1em 0.1em grey;
     
 }
-li {
+h3 {
     background-color: beige;
     width: auto;
     height: auto;
@@ -78,12 +103,51 @@ li {
     border-style: dotted;
     border-radius: 50px;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
+li a {
+    display: block;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: palegreen;
+    color: azure;
+    height: auto;
+    width: auto;
+    border-width: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: beige;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding: auto;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 h4{
-    float: left;
-    width: 800px;
+    width: auto;
     height: auto;
     margin-left: 300px;
+    margin-right: 70px;
+    margin-top: auto;
     font-size: 14px;
     text-align: justify;
     white-space: pre-wrap;
@@ -91,19 +155,25 @@ h4{
     color: black;
     background-color: beige;
     border-width: 5px;
-    border-style: dotted;
+    border-style: solid;
     border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+    word-break: keep-all;
 }
-.zdjecie{
-    margin: auto;
+img{
+    margin-left: auto;
+    margin-right: auto;
     border-width: 5px;
     border-style: dotted;
     border-radius: 70px;
-        }
+    display: block;
+}
 h1{
+    margin-right: 70px;
     text-align: center;
     text-shadow: 0.1em 0.1em 0.2em grey;
-    margin-left: 300px;
+    margin-left: 315px;
         }
 h1::after{
     content: "";
@@ -114,6 +184,33 @@ h1:before{
     content: "";
     display: block;
     border: 2px solid black;
+}
+.button {
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 70px;
+    border-radius: 70px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    background-color: beige;
+}
+.drugi:hover{
+    width: 300px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+footer{
+    float: left;
 }
     </style>
 
